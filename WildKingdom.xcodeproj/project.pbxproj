@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8805A8F3189307240069B03C /* TigerButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8805A8F2189307240069B03C /* TigerButton.png */; };
+		8805A8F6189309600069B03C /* BearButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8805A8F4189309600069B03C /* BearButton.png */; };
+		8805A8F918930A740069B03C /* LionButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8805A8F818930A740069B03C /* LionButton.png */; };
+		8805A8FB18930BEE0069B03C /* Tiger2Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 8805A8FA18930BEE0069B03C /* Tiger2Button.png */; };
+		8805A900189319860069B03C /* Flickr.m in Sources */ = {isa = PBXBuildFile; fileRef = 8805A8FD189319860069B03C /* Flickr.m */; };
+		8805A901189319860069B03C /* FlickrPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 8805A8FF189319860069B03C /* FlickrPhoto.m */; };
+		8805A907189465350069B03C /* iButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8805A906189465350069B03C /* iButton.png */; };
+		8805A90A189465920069B03C /* MapWithPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8805A909189465920069B03C /* MapWithPhotoViewController.m */; };
+		8805A90C18948C630069B03C /* Button_map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8805A90B18948C630069B03C /* Button_map.png */; };
 		8883D5E01891ABC800105788 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8883D5DF1891ABC800105788 /* Foundation.framework */; };
 		8883D5E21891ABC800105788 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8883D5E11891ABC800105788 /* CoreGraphics.framework */; };
 		8883D5E41891ABC800105788 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8883D5E31891ABC800105788 /* UIKit.framework */; };
@@ -22,7 +31,6 @@
 		8883D6091891ABC800105788 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8883D6071891ABC800105788 /* InfoPlist.strings */; };
 		8883D60B1891ABC800105788 /* WildKingdomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8883D60A1891ABC800105788 /* WildKingdomTests.m */; };
 		8883D6161891B09800105788 /* FlickrPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8883D6151891B09800105788 /* FlickrPhotoCell.m */; };
-		8883D6181891B5F200105788 /* adium.png in Resources */ = {isa = PBXBuildFile; fileRef = 8883D6171891B5F200105788 /* adium.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8805A8F2189307240069B03C /* TigerButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TigerButton.png; sourceTree = "<group>"; };
+		8805A8F4189309600069B03C /* BearButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BearButton.png; sourceTree = "<group>"; };
+		8805A8F818930A740069B03C /* LionButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LionButton.png; sourceTree = "<group>"; };
+		8805A8FA18930BEE0069B03C /* Tiger2Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tiger2Button.png; sourceTree = "<group>"; };
+		8805A8FC1893197A0069B03C /* Flickr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Flickr.h; sourceTree = "<group>"; };
+		8805A8FD189319860069B03C /* Flickr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flickr.m; sourceTree = "<group>"; };
+		8805A8FE189319860069B03C /* FlickrPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhoto.h; sourceTree = "<group>"; };
+		8805A8FF189319860069B03C /* FlickrPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhoto.m; sourceTree = "<group>"; };
+		8805A906189465350069B03C /* iButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iButton.png; sourceTree = "<group>"; };
+		8805A908189465920069B03C /* MapWithPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapWithPhotoViewController.h; path = ../MapWithPhotoViewController.h; sourceTree = "<group>"; };
+		8805A909189465920069B03C /* MapWithPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapWithPhotoViewController.m; path = ../MapWithPhotoViewController.m; sourceTree = "<group>"; };
+		8805A90B18948C630069B03C /* Button_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_map.png; sourceTree = "<group>"; };
 		8883D5DC1891ABC800105788 /* WildKingdom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WildKingdom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8883D5DF1891ABC800105788 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8883D5E11891ABC800105788 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,7 +77,6 @@
 		8883D60A1891ABC800105788 /* WildKingdomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WildKingdomTests.m; sourceTree = "<group>"; };
 		8883D6141891B09800105788 /* FlickrPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhotoCell.h; sourceTree = "<group>"; };
 		8883D6151891B09800105788 /* FlickrPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotoCell.m; sourceTree = "<group>"; };
-		8883D6171891B5F200105788 /* adium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = adium.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +103,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8805A91218956CB40069B03C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8805A906189465350069B03C /* iButton.png */,
+				8805A8FA18930BEE0069B03C /* Tiger2Button.png */,
+				8805A8F2189307240069B03C /* TigerButton.png */,
+				8805A8F4189309600069B03C /* BearButton.png */,
+				8805A8F818930A740069B03C /* LionButton.png */,
+				8805A90B18948C630069B03C /* Button_map.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		8883D5D31891ABC800105788 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +149,11 @@
 		8883D5E51891ABC800105788 /* WildKingdom */ = {
 			isa = PBXGroup;
 			children = (
+				8805A91218956CB40069B03C /* Images */,
+				8805A8FC1893197A0069B03C /* Flickr.h */,
+				8805A8FD189319860069B03C /* Flickr.m */,
+				8805A8FE189319860069B03C /* FlickrPhoto.h */,
+				8805A8FF189319860069B03C /* FlickrPhoto.m */,
 				8883D5EE1891ABC800105788 /* AppDelegate.h */,
 				8883D5EF1891ABC800105788 /* AppDelegate.m */,
 				8883D5F11891ABC800105788 /* Main.storyboard */,
@@ -124,7 +161,8 @@
 				8883D6151891B09800105788 /* FlickrPhotoCell.m */,
 				8883D5F41891ABC800105788 /* ViewController.h */,
 				8883D5F51891ABC800105788 /* ViewController.m */,
-				8883D6171891B5F200105788 /* adium.png */,
+				8805A908189465920069B03C /* MapWithPhotoViewController.h */,
+				8805A909189465920069B03C /* MapWithPhotoViewController.m */,
 				8883D5F71891ABC800105788 /* Images.xcassets */,
 				8883D5E61891ABC800105788 /* Supporting Files */,
 			);
@@ -236,10 +274,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8883D6181891B5F200105788 /* adium.png in Resources */,
+				8805A8F918930A740069B03C /* LionButton.png in Resources */,
+				8805A8F3189307240069B03C /* TigerButton.png in Resources */,
+				8805A907189465350069B03C /* iButton.png in Resources */,
+				8805A90C18948C630069B03C /* Button_map.png in Resources */,
 				8883D5F81891ABC800105788 /* Images.xcassets in Resources */,
+				8805A8FB18930BEE0069B03C /* Tiger2Button.png in Resources */,
 				8883D5EA1891ABC800105788 /* InfoPlist.strings in Resources */,
 				8883D5F31891ABC800105788 /* Main.storyboard in Resources */,
+				8805A8F6189309600069B03C /* BearButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +301,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8805A90A189465920069B03C /* MapWithPhotoViewController.m in Sources */,
+				8805A900189319860069B03C /* Flickr.m in Sources */,
 				8883D5F61891ABC800105788 /* ViewController.m in Sources */,
 				8883D6161891B09800105788 /* FlickrPhotoCell.m in Sources */,
+				8805A901189319860069B03C /* FlickrPhoto.m in Sources */,
 				8883D5F01891ABC800105788 /* AppDelegate.m in Sources */,
 				8883D5EC1891ABC800105788 /* main.m in Sources */,
 			);
@@ -470,6 +516,7 @@
 				8883D6101891ABC800105788 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8883D6111891ABC800105788 /* Build configuration list for PBXNativeTarget "WildKingdomTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +525,7 @@
 				8883D6131891ABC800105788 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

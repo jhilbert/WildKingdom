@@ -3,10 +3,62 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "-[ViewController collectionView:didSelectItemAtIndexPath:]:ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[cell.imageView viewWithTag:100]">
+            </PersistentString>
+            <PersistentString
+               value = "(UIImageView*)cell.imageView.subviews">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MapWithPhotoViewController viewDidLoad]:MapWithPhotoViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_flickrPhoto.photoInfo[@&quot;title&quot;][@&quot;_content&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__58-[ViewController collectionView:didSelectItemAtIndexPath:]_block_invoke_2:ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell.photo.infoView">
+            </PersistentString>
+            <PersistentString
+               value = "cell.backgroundView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController collectionView:layout:sizeForItemAtIndexPath:]:ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "collectionViewWidth">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "-[ViewController collectionView:cellForItemAtIndexPath:]:ViewController.m">
          <PersistentStrings>
             <PersistentString
+               value = "photoCell.backgroundView">
+            </PersistentString>
+            <PersistentString
                value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController onInfoBarPressed:]:ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectedFlickrPhotoCell.infoView">
+            </PersistentString>
+            <PersistentString
+               value = "selectedFlickrPhotoCell.infoView.text">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
